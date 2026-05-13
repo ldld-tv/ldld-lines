@@ -1,0 +1,3 @@
+wrangler login
+wrangler pages deploy ./dist/spa --project-name=ldld-lines
+CLOUDFLARE_API_TOKEN="c_ZweC0K6LaR15G8I18aJG1oikDHqzPt9r0fNYCu"; CLOUDFLARE_ACCOUNT_ID="ts0307@mail.io"; wrangler pages deploy ./dist/spa --project-name=ldld-lines

@@ -1,0 +1,54 @@
+{
+  "name": "lines",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "lines",
+  "author": "any",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint -c ./eslint.config.js \"./src*/**/*.{ts,js,cjs,mjs,vue}\"",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "dotenvx run -f .env.development -- quasar dev",
+    "build:dev": "dotenvx run -f .env.development -- quasar build --debug",
+    "build:prod": "dotenvx run -f .env.production -- quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.2.1",
+    "pinia": "^3.0.1",
+    "quasar": "^2.18.2",
+    "url": "^0.11.4",
+    "vue": "^3.5.20",
+    "vue-i18n": "^11.0.0",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.49.0",
+    "@eslint/js": "^9.14.0",
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@quasar/app-vite": "^2.3.0",
+    "@testing-library/vue": "^8.1.0",
+    "@types/node": "^20.5.9",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vue/eslint-config-typescript": "^14.4.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3",
+    "typescript": "~5.5.3",
+    "vite-plugin-checker": "^0.9.0",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^2.0.29"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.0.0"
+  },
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

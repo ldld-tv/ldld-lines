@@ -1,0 +1,26 @@
+// This is just an example,
+// so you can safely delete all default props below
+
+export default {
+  hour: '小时',
+  minute: '分钟',
+  qvod: '快播',
+  noMore: '没有更多了',
+  imageLoadFailed: '图片加载失败',
+  all: '全部',
+  recommend: '推荐',
+  korean: '韩国',
+  japanese: '日本',
+  chinese: '国产',
+  europe: '欧美',
+  selfies: '自拍',
+  anime: '动漫',
+  other: '其他',
+  episode: '第{index}集',
+  lineSelection: '线路选择中',
+  enter: '进入',
+  adsForLaunch: '启动广告',
+  permanent: '永久域名，永久免费！',
+  clickToEnter: '点击进入',
+  bookmark: '建议收藏本站！！！',
+};

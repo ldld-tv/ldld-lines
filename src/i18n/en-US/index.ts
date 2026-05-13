@@ -1,0 +1,26 @@
+// This is just an example,
+// so you can safely delete all default props below
+
+export default {
+  hour: ' hour | hours',
+  minute: ' minute | minutes',
+  qvod: 'Qvod',
+  noMore: 'No more',
+  imageLoadFailed: 'Image loading failed',
+  all: 'All',
+  recommend: 'Recommend',
+  korean: 'Korean',
+  japanese: 'Japanese',
+  chinese: 'Chinese',
+  europe: 'Europe',
+  selfies: 'Selfies',
+  anime: 'Anime',
+  other: 'Other',
+  episode: 'Episode {index}',
+  lineSelection: 'line selection',
+  enter: 'Enter',
+  adsForLaunch: 'Ads for launch',
+  permanent: 'Permanent domain name, permanently free!',
+  clickToEnter: 'Click to enter',
+  bookmark: 'Bookmark this site!!!',
+};
